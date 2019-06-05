@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+// void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class CountApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage()
+      home: CountPage()
     );
   }
 }
 
-class HomePage extends StatelessWidget {
+class CountPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

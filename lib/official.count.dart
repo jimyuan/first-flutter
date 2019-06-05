@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+// void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class OfficialCountApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -20,13 +20,13 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.green,
       ),
-      home: MyHomePage(title: '我的 Flutter App'),
+      home: OfficialCountHomePage(title: '我的 Flutter App'),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class OfficialCountHomePage extends StatefulWidget {
+  OfficialCountHomePage({Key key, this.title}) : super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -40,10 +40,10 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _OfficialCountHomePageState createState() => _OfficialCountHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _OfficialCountHomePageState extends State<OfficialCountHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Text(
               'You have pushed the button this many times:',
-              style: Theme.of(context).textTheme.display1,
+              style: Theme.of(context).textTheme.body2,
             ),
             Text(
               '$_counter',

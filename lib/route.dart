@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+// void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class RouteApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
       routes: {
         'new_page': (context) => NewPage()
       },
-      home: HomePage()
+      home: FirstPage()
     );
   }
 }
 
-class HomePage extends StatelessWidget {
+class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
