@@ -11,10 +11,10 @@ class AnimationApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('flex layout'),
+          title: Text('Animation Demo'),
           actions: <Widget>[ //导航栏右侧菜单
             IconButton(
-              icon: Icon(Icons.share),
+              icon: Icon(Icons.share, color: Color.fromRGBO(0, 0, 0, 1),),
               onPressed: () {
                 print('share icon');
               }
