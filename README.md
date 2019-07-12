@@ -66,8 +66,10 @@ pod setup
 
 以上都配置好了以后，可以通过以下命令查看配置环境，看看是否都打上勾了：
 ```bash
+# normal check
 $ flutter doctor
-$ flutter docto
+# details of check list
+$ flutter doctor -v
 ```
 
 ## 应用名称和图标设置
